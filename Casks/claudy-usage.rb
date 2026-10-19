@@ -14,6 +14,8 @@ cask "claudy-usage" do
   # Ad-hoc signed, not notarized (no Apple Developer ID): drop the quarantine flag so it opens without "Open Anyway".
   postflight_steps do
     run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "/Applications/ClaudyUsage.app"], must_succeed: false
+    # Start it right after install; the menu bar icon appears without a manual launch.
+    run "/usr/bin/open", args: ["/Applications/ClaudyUsage.app"], must_succeed: false
   end
 
   zap trash: [
