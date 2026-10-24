@@ -1,6 +1,6 @@
 cask "claudy-usage" do
-  version "0.6.1"
-  sha256 "82d28fb7afa535e08bb5934fd76860f781b5fe18a31981844cd850420aa31ba7"
+  version "0.6.2"
+  sha256 "612a618cac3e8be0d707ff502dc7079174a6ad89c2f8774d9bb6e011c46a8944"
 
   url "https://github.com/juliobianco/claudy-usage-mac/releases/download/v#{version}/ClaudyUsage-#{version}-macos.zip"
   name "Claudy Usage"
