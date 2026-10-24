@@ -1,6 +1,6 @@
 cask "codexy" do
-  version "0.2.1"
-  sha256 "1e1e1456dffa612974f5f2b6462aba120bb6de4e7f2788d8c9bdf2f80b8c32ed"
+  version "0.2.2"
+  sha256 "1d41c03bc231a0d7a3013ed528710b9791c44a4b8adff50b18e2c778b4d04122"
 
   url "https://github.com/juliobianco/codexy/releases/download/v#{version}/Codexy-#{version}-macos.zip"
   name "Codexy"
